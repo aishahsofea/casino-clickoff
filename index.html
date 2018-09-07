@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>HusainCard</title>
+</head>
+<body>
+    <nav class="navbar">
+        <span class="navbar-text">
+            <a class="fancy-button title" href="index.html">Casino ClickOff</a>
+        </span>
+        <div class="instruction"></div>
+        <div>
+            <div class="timer"></div>
+            <div class="score"></div>
+        </div>
+    </nav>
+
+    <div class="page">
+        <section class="memory-game">
+            <div id="card-1" class="lucky-seven memory-card">
+                <img class="back-face" src="images/lucky-seven.svg" alt="memory-card">
+            </div>
+            <div id="card-2" class="poker memory-card">
+                <img class="back-face" src="images/poker.svg" alt="memory-card">
+            </div>
+
+            <div id="card-3" class="chips memory-card">
+                <img class="back-face" src="images/chips.svg" alt="memory-card">
+            </div>
+            <div id="card-4" class="cigar memory-card">
+                <img class="back-face" src="images/cigar.svg" alt="memory-card">
+            </div>
+
+            <div id="card-5" class="diamond memory-card">
+                <img class="back-face" src="images/diamond.svg" alt="memory-card">
+            </div>
+            <div id="card-6" class="coin memory-card">
+                <img class="back-face" src="images/coin.svg" alt="memory-card">
+            </div>
+
+            <div id="card-7" class="hearts memory-card">
+                <img class="back-face" src="images/hearts.svg" alt="memory-card">
+            </div>
+            <div id="card-8" class="champagne memory-card">
+                <img class="back-face" src="images/champagne.svg" alt="memory-card">
+            </div>
+
+            <div id="card-9" class="money-bag memory-card">
+                <img class="back-face" src="images/money-bag.svg" alt="memory-card">
+            </div>
+            <div id="card-10" class="ticket memory-card">
+                <img class="back-face" src="images/ticket.svg" alt="memory-card">
+            </div>
+
+            <div id="card-11" class="foosball memory-card">
+                <img class="back-face" src="images/roulette.svg" alt="memory-card">
+            </div>
+            <div id="card-12" class="poker memory-card">
+                <img class="back-face" src="images/poker.svg" alt="memory-card">
+            </div>
+            <div id="card-13" class="foosball memory-card">
+                <img class="back-face" src="images/foosball.svg" alt="memory-card">
+            </div>
+            <div id="card-14" class="dices memory-card">
+                <img class="back-face" src="images/dices.svg" alt="memory-card">
+            </div>
+
+            <div id="card-15" class="wallet memory-card">
+                <img class="back-face" src="images/wallet.svg" alt="memory-card">
+            </div>
+            <div id="card-16" class="chips memory-card">
+                <img class="back-face" src="images/chips.svg" alt="memory-card">
+            </div>
+
+            <div id="card-17" class="win memory-card">
+                <img class="back-face" src="images/win.svg" alt="memory-card">
+            </div>
+            <div id="card-18" class="coin memory-card">
+                <img class="back-face" src="images/coin.svg" alt="memory-card">
+            </div>
+
+            <div id="card-19" class="colorful-roulette memory-card">
+                <img class="back-face" src="images/colorful-roulette.svg" alt="memory-card">
+            </div>
+            <div id="card-20" class="slot-machine memory-card">
+                <img class="back-face" src="images/slot-machine.svg" alt="memory-card">
+            </div>
+
+            <div id="card-21" class="cocktail memory-card">
+                <img class="back-face" src="images/cocktail.svg" alt="memory-card">
+            </div>
+            <div id="card-22" class="billiards memory-card">
+                <img class="back-face" src="images/billiards.svg" alt="memory-card">
+            </div>
+
+            <div id="card-23" class="notes memory-card">
+                <img class="back-face" src="images/notes.svg" alt="memory-card">
+            </div>
+            <div id="card-24" class="dices memory-card">
+                <img class="back-face" src="images/dices.svg" alt="memory-card">
+            </div>
+            <div id="card-25" class="notes memory-card">
+                <img class="back-face" src="images/notes.svg" alt="memory-card">
+            </div>
+            <div id="card-26" class="coin-stack memory-card">
+                <img class="back-face" src="images/coin-stack.svg" alt="memory-card">
+            </div>
+
+            <div id="card-27" class="lottery memory-card">
+                <img class="back-face" src="images/lottery.svg" alt="memory-card">
+            </div>
+            <div id="card-28" class="lottery memory-card">
+                <img class="back-face" src="images/lottery.svg" alt="memory-card">
+            </div>
+
+            <div id="card-29" class="bell memory-card">
+                <img class="back-face" src="images/bell.svg" alt="memory-card">
+            </div>
+            <div id="card-30" class="croupier memory-card">
+                <img class="back-face" src="images/croupier.svg" alt="memory-card">
+            </div>
+
+            <div id="card-31" class="horseshoe memory-card">
+                <img class="back-face" src="images/horseshoe.svg" alt="memory-card">
+            </div>
+            <div id="card-32" class="wallet memory-card">
+                <img class="back-face" src="images/wallet.svg" alt="memory-card">
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
